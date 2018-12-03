@@ -1,0 +1,270 @@
+EESchema Schematic File Version 4
+LIBS:ac-slow-start-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5BEB6272
+P 2350 2700
+F 0 "J1" H 2456 2878 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2456 2787 50  0000 C CNN
+F 2 "p_molex:Molex_Mega-Fit_76829-0002_2x01_P5.70mm_Vertical" H 2350 2700 50  0001 C CNN
+F 3 "~" H 2350 2700 50  0001 C CNN
+	1    2350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5BEB6748
+P 3750 3350
+F 0 "C2" V 3600 3350 50  0000 C CNN
+F 1 "0.01uF/400V" V 3900 3350 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 3788 3200 50  0001 C CNN
+F 3 "~" H 3750 3350 50  0001 C CNN
+	1    3750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5BEB7129
+P 5100 2150
+F 0 "J3" H 5127 2126 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5127 2035 50  0000 L CNN
+F 2 "p_molex:Molex_Mega-Fit_76829-0002_2x01_P5.70mm_Vertical" H 5100 2150 50  0001 C CNN
+F 3 "~" H 5100 2150 50  0001 C CNN
+	1    5100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5BEB72A4
+P 5100 2400
+F 0 "J4" H 5127 2376 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5127 2285 50  0000 L CNN
+F 2 "p_molex:Molex_Mega-Fit_76829-0002_2x01_P5.70mm_Vertical" H 5100 2400 50  0001 C CNN
+F 3 "~" H 5100 2400 50  0001 C CNN
+	1    5100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 5BEB7322
+P 5100 2700
+F 0 "J5" H 5127 2676 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5127 2585 50  0000 L CNN
+F 2 "p_molex:Molex_Mega-Fit_76829-0002_2x01_P5.70mm_Vertical" H 5100 2700 50  0001 C CNN
+F 3 "~" H 5100 2700 50  0001 C CNN
+	1    5100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J6
+U 1 1 5BEB7368
+P 5100 2950
+F 0 "J6" H 5127 2926 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5127 2835 50  0000 L CNN
+F 2 "p_molex:Molex_Mega-Fit_76829-0002_2x01_P5.70mm_Vertical" H 5100 2950 50  0001 C CNN
+F 3 "~" H 5100 2950 50  0001 C CNN
+	1    5100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5BEB73C2
+P 3800 5000
+F 0 "J2" V 3953 4813 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 3862 4813 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" H 3800 5000 50  0001 C CNN
+F 3 "~" H 3800 5000 50  0001 C CNN
+	1    3800 5000
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Thermistor_PTC TH1
+U 1 1 5BEC6FC6
+P 3750 2950
+F 0 "TH1" V 3460 2950 50  0000 C CNN
+F 1 "B59215J0130A020" V 3551 2950 50  0000 C CNN
+F 2 "p_ptc:B59215J0130A020" H 3800 2750 50  0001 L CNN
+F 3 "~" H 3750 2950 50  0001 C CNN
+	1    3750 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 2700 2600 2700
+Wire Wire Line
+	2600 2700 2600 2450
+Wire Wire Line
+	2550 2800 2600 2800
+Wire Wire Line
+	2600 2800 2600 2950
+Wire Wire Line
+	4850 2950 4850 2800
+Wire Wire Line
+	4850 2800 4900 2800
+Connection ~ 4850 2950
+Wire Wire Line
+	4850 2950 4900 2950
+Wire Wire Line
+	4850 2800 4850 2700
+Wire Wire Line
+	4850 2700 4900 2700
+Connection ~ 4850 2800
+Wire Wire Line
+	4850 2950 4850 3050
+Wire Wire Line
+	4850 3050 4900 3050
+Wire Wire Line
+	4850 2450 4850 2500
+Wire Wire Line
+	4850 2500 4900 2500
+Wire Wire Line
+	4900 2400 4850 2400
+Wire Wire Line
+	4850 2400 4850 2450
+Connection ~ 4850 2450
+Wire Wire Line
+	4900 2250 4850 2250
+Wire Wire Line
+	4850 2250 4850 2400
+Connection ~ 4850 2400
+Wire Wire Line
+	4900 2150 4850 2150
+Wire Wire Line
+	4850 2150 4850 2250
+Connection ~ 4850 2250
+Wire Wire Line
+	3900 2950 4100 2950
+Wire Wire Line
+	4050 3950 4100 3950
+Wire Wire Line
+	4100 3950 4100 3350
+Connection ~ 4100 2950
+Wire Wire Line
+	4100 2950 4850 2950
+Connection ~ 3400 2950
+Wire Wire Line
+	3400 2950 3600 2950
+Wire Wire Line
+	3400 3350 3600 3350
+Connection ~ 3400 3350
+Wire Wire Line
+	3400 3350 3400 2950
+Wire Wire Line
+	3900 3350 4100 3350
+Connection ~ 4100 3350
+Wire Wire Line
+	4100 3350 4100 2950
+Wire Wire Line
+	3800 4800 3800 4750
+Wire Wire Line
+	3800 4750 4100 4750
+Wire Wire Line
+	4100 4750 4100 4350
+Wire Wire Line
+	4100 4350 4050 4350
+Wire Wire Line
+	3700 4800 3700 4750
+Wire Wire Line
+	3700 4750 3400 4750
+Wire Wire Line
+	3400 4750 3400 4350
+Wire Wire Line
+	3400 4350 3450 4350
+Wire Wire Line
+	3400 3950 3450 3950
+Wire Wire Line
+	3400 3350 3400 3950
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5BF2E606
+P 5600 4350
+F 0 "H1" H 5700 4396 50  0000 L CNN
+F 1 "MountingHole" H 5700 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5600 4350 50  0001 C CNN
+F 3 "~" H 5600 4350 50  0001 C CNN
+	1    5600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5BF2E6BE
+P 5600 4550
+F 0 "H2" H 5700 4596 50  0000 L CNN
+F 1 "MountingHole" H 5700 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5600 4550 50  0001 C CNN
+F 3 "~" H 5600 4550 50  0001 C CNN
+	1    5600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5BF2E6F0
+P 5600 4750
+F 0 "H3" H 5700 4796 50  0000 L CNN
+F 1 "MountingHole" H 5700 4705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5600 4750 50  0001 C CNN
+F 3 "~" H 5600 4750 50  0001 C CNN
+	1    5600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5BF2E728
+P 5600 4950
+F 0 "H4" H 5700 4996 50  0000 L CNN
+F 1 "MountingHole" H 5700 4905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5600 4950 50  0001 C CNN
+F 3 "~" H 5600 4950 50  0001 C CNN
+	1    5600 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:G5Q-1A K1
+U 1 1 5BF43C61
+P 3750 4150
+F 0 "K1" V 4217 4150 50  0000 C CNN
+F 1 "G4A-1A-PE DC24" V 4126 4150 50  0000 C CNN
+F 2 "p_relay:G4A-1A-PE" H 4200 4100 50  0001 L CNN
+F 3 "" H 3750 3750 50  0001 C CNN
+	1    3750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5C2387D3
+P 2950 2700
+F 0 "C1" H 3000 2600 50  0000 L CNN
+F 1 "0.01uF/400V" H 3000 2800 50  0000 L CNN
+F 2 "" H 2988 2550 50  0001 C CNN
+F 3 "~" H 2950 2700 50  0001 C CNN
+	1    2950 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2450 2950 2450
+Wire Wire Line
+	2600 2950 2950 2950
+Wire Wire Line
+	2950 2550 2950 2450
+Connection ~ 2950 2450
+Wire Wire Line
+	2950 2450 4850 2450
+Wire Wire Line
+	2950 2850 2950 2950
+Connection ~ 2950 2950
+Wire Wire Line
+	2950 2950 3400 2950
+$EndSCHEMATC
